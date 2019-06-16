@@ -1,0 +1,260 @@
+body {
+    margin: auto;
+    width: 1206px;
+    background: url("../img/Grey-website-background.png");
+    background-size: cover;
+    font-family: "Boogaloo", cursive;
+    font-size: 18px; 
+}
+
+.banner {
+    position: relative;
+}
+
+#banner_text, h1 {
+    text-align: end;
+    text-shadow: -1px -1px 3px rgba(255, 255, 255, 0.7);
+    font-family: 'Amatic SC', cursive;
+    font-size: 102px;
+    font-weight: bold;
+    margin: 0;
+    padding: 35px 0 50px;
+}
+
+#header_photo {
+    border: 5px solid #fdfdfd96;
+    border-radius: 120px 120px 120px 120px;
+    margin: 30px 12px 20px;
+}
+
+#header_photo:hover {
+    box-shadow: 4px 3px 50px;
+}
+
+.banner img {
+    position: absolute;
+    top: -5px;
+    left: -5px;
+}
+
+.nav_bar {
+    background: #80808096;
+    border-radius: 50px 50px 50px 50px;
+}
+
+ul {
+    padding: 8px;
+    text-align: center;
+    margin: 15px;
+}
+
+li {
+    display: inline; 
+    padding: 0 90px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    text-shadow: 0px -1px 5px rgba(255, 255, 255, .41);
+}
+
+a:hover {
+    color: #ffffff9d;
+    text-shadow: 0px -1px 5px rgb(0, 0, 0);
+}
+
+.main {
+    text-align: center;
+    border: solid #ffffffbf;
+    border-radius: 5px 5px 5px 5px;
+}
+
+blockquote {
+    text-align: left;
+    background-color: #80808049;
+    border: #80808096;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.main_section_quotes:before, .main_section_quotes:after {
+    font-size: 25px;
+    color: #bfbfbf;
+    font-style: italic;
+}
+
+.main_section_quotes:before {
+    content:" “ ";
+}
+
+.main_section_quotes:after {
+    content:" ” ";
+
+}
+
+.big_photo {
+    width: 1200px;
+    padding: 0 0 20px 0
+}
+
+
+.feature {
+    width: 400px;
+    float: left;
+}
+
+.feature_picture {
+    width: 380px;
+    padding: 0 10px;
+}
+
+.clearhack {
+    clear: left;
+}
+
+.logo_fixed {
+    position: fixed;
+    left: 1283px;
+    bottom: 10px;
+}
+
+#logo_fixed_signature {
+    Background: rgba(255,255,255, 0.2);
+    border: 1px solid #80808096; 
+    border-radius: 50px 50px 50px 50px;
+    padding: 4px 7px;
+    box-shadow: 5px 5px 50px 3px rgba(255, 255, 255, .4);
+    text-decoration: none;   
+    color: #ffffffbf;
+}
+
+#logo_fixed_signature:visited {
+    color: #ffffffbf;
+}
+#logo_fixed_signature:hover {
+    color: black;
+    box-shadow: 5px 5px 50px 3px rgba(255, 255, 255, 0.925);
+}
+
+footer {
+    margin: 40px 0 70px;
+    width: auto;
+    border: 5px solid #80808049;
+    padding: 5px 5px 5px 5px;
+}
+
+.divider {
+    display: inline;
+    font-size: 32px;
+    color: #80808096;
+}
+
+.footer_contact {
+    display: inline;
+    color: #808080e8;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  
+  .fa-vimeo {
+    background: #45bbff;
+    color: white;
+  }
+
+
+/* ---------------------------- =flex box settings --------------------------- */
+
+.container {
+    display: flex;
+    overflow-x: auto;
+    padding: 25px 0;
+}
+
+.container img {
+    margin-right: 15px;
+}
+
+
+
+/* ------------------------------- =contact me ------------------------------ */
+
+#msg {
+    display: inline;
+}
+
+
+/* -------------------------------- =About Me ------------------------------- */
+
+
+.Navbar {
+    background-color: #46ACC2;
+    display: flex;
+    padding: 16px;
+    font-family: sans-serif;
+    color: white;
+  }
+  .Navbar__Link {
+    padding-right: 8px;
+  }
+  .Navbar__Items {
+    display: flex;
+  }
+  .Navbar__Items--right {
+    margin-left:auto;
+  }
+  .Navbar__Link-toggle {
+    display: none;
+  }
+  @media only screen and (max-width: 768px) {
+    .Navbar__Items,
+    .Navbar {
+      flex-direction: column;
+    }
+  .Navbar__Items {
+      display:none;
+    }
+  .Navbar__Items--right {
+      margin-left:0;
+    }
+  .Navbar__ToggleShow {
+      display: flex;
+    }
+  .Navbar__Link-toggle {
+      align-self: flex-end;
+      display: initial;
+      position: absolute;
+      cursor: pointer;
+     } 
+  }
