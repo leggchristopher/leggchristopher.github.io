@@ -1,0 +1,142 @@
+/* ---------------------------------- rules --------------------------------- */
+#grad {
+    background-image: linear-gradient(to right, #85AC32,#a5b7bd); 
+}
+a:hover {
+    color: #CD7523;
+}
+.banner img {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    transition: filter 600ms ease;
+    -webkit-transition: -webkit-filter 600ms ease;
+}
+
+.banner img:hover {
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+    transform: scale(1.01);
+
+}
+
+test {
+color: #CD7523;
+}
+/* ------------------------------------ . ----------------------------------- */
+
+header {
+    display: grid;
+    grid-template-columns: 33% 33% 34.2%;
+    background-color: rgb(236, 241, 243);
+}
+
+#logo {
+    padding: 10px;
+    height: auto;
+    border-radius: 0px;
+}
+
+li {
+    display: inline;
+    padding: 20px;
+}
+
+ul {
+    padding-right: 180px;
+}
+
+.nav_bar {
+    grid-column: 2/4;
+    grid-row: 1;
+    justify-self: right;
+    align-self: center;
+}
+
+.hero {
+    background-image: url(/img/hero_doctor.jpg);
+    width: 1200px;
+    height: 460px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 9px 21px 6px rgba(151, 119, 119, 0.77);
+    -webkit-box-shadow: 0px 9px 21px 6px rgba(0,0,0,0.77);
+    -moz-box-shadow: 0px 9px 21px 6px rgba(0,0,0,0.77);
+}
+
+.hero_header {
+    padding: 40px 0 8px 15px;
+}
+
+.hero_text {
+    width: 700px;
+    padding-left: 30px;4
+}
+
+.banner {
+    grid-column: 1/3;
+    grid-row: 1/4;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 100px 200px 280px;
+    grid-column-gap: 10px;
+    grid-row-gap: 15px;
+}
+
+.banner_headline {
+    grid-column: 1/5;
+    justify-self: center;
+    padding-top: 10px;
+}
+
+.feature1 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.feature2 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.feature3 {
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+
+.banner_images {
+    margin-left: 45px;
+    box-shadow: 1px 7px 17px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px 7px 17px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 7px 17px 0px rgba(0,0,0,0.75);
+    transition: .9s;
+}
+
+.sub_box {
+    padding-left: 45px;
+}
+
+.body {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 180px 80px 60px;
+}
+
+.body_text {
+    grid-column: 1/5;
+    grid-row: 1;
+    text-align: center;
+}
+
+.box {
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+    padding: 10px;
+}
+.box img {
+    border-radius: 80px;
+}
+
+footer {
+    grid-column: 1/5;
+    grid-row: 4;
+}
