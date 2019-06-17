@@ -1,14 +1,115 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="css/style.css">
-    <Title>Christopher Legg's Portfolio</Title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="theme.scss">
 </head>
-<body>    
-    <h1>Christopher Legg's Portfolio</h1>
-    <a href="../EMC2Care/">Most Recent</a>
-    <a href="../JLaynePhotography/">First example</a>
-    <a href="../OneSpace/">Second go</a>
+
+<script>
+    function myFunction(x) {
+        x.classList.toggle("change");
+        }
+</script>
+
+<body id="grad">
+
+    <header>
+        <div class="logo">
+                <img src="emc2care.png" alt="wolf-logo" id="logo"> 
+        </div>
+
+        <ul class="nav_bar">
+            <li>Features</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Ourt Talents</li>
+            <li>News</li>
+            <li>Contact</li>
+            <li>Shop</li>
+        </ul>
+        
+        <div class="hamburger" onclick="myFunction(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+        </div>
+
+    </header>
+
+    <div class="container">
+        <div class="hero">
+            <h2 class="hero_header">Now there's a better way to take care of your health</h2>
+            <p class="hero_text">Why EMC2CARE? emc2care is dedicated to bring CARE back into the practice of medicine. In today’s world finding healthcare that promotes a successful lifestyle and not just the quick treatment of disease is difficult to find.  Your health is your greatest asset, so don’t you deserve doctors that will truly get to know you on a personal basis, and give you the time and attention that helps you achieve enhanced results?  That’s why emc2care was created by Alpharetta Medical Associates, P.C.,  to ensure that you get more than the typical doctors visit, with an engaged doctor and staff that will work to help you achieve an enhanced life through wellness, medicine and the pursuit of a healthy lifestyle.</p>
+
+            <p class="hero_text">Alan Einstein, D.O. has created a concierge membership program that provides a Comprehensive Risk Assessment Exam, 24/7 access to your Personal Electronic Health Records, Convenient unhurried appointments, Coordination of your Specialty Care, Enhanced Communication Services, Lifestyle and Wellness Education, Online Prescription Refills, National Travel Network, Prevention Services and much more.</p>
+                
+            <p class="hero_text"> You owe it to yourself and your loved ones to see if enrollment in the emc2care concierge membership program is right for you.  To get started call 678.513.4722 to pre-enroll today.</p>
+        </div>
+    </div>
+
+    <div class="banner">
+        <h1 class="banner_headline">We Are One Page</h1>
+        <div class="feature1">
+            <a href="#"><img class="banner_images" src="img/heart_food.png" alt="#"></a>
+            <div class="sub_box">
+                <h3>This is an article heading</h3>
+                <p>First couple lines of article: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore quos ipsam nobis obcaecati, culpa ex? Pariatur repudiandae quisquam et, cum animi nisi veritatis ratione, debitis consectetur repellat esse dolorem numquam!</p>
+                <a class="read_more_button" href="#">Read More</a>
+            </div>
+        </div>
+        <div class="feature2">
+            <a href="#"><img class="banner_images" src="img/member_photo.jpg" alt="#"></a>
+            <div class="sub_box">
+                <h3>This is an article heading</h3>
+                <p>First couple lines of article: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore quos ipsam nobis obcaecati, culpa ex? Pariatur repudiandae quisquam et, cum animi nisi veritatis ratione, debitis consectetur repellat esse dolorem numquam!</p>
+                <a class="read_more_button" href="#">Read More</a>
+            </div>
+        </div>
+        <div class="feature3">
+            <a href="#"><img class="banner_images" src="img/health_words.jpeg" alt="#"></a>
+            <div class="sub_box">
+                <h3>This is an article heading</h3>
+                <p>First couple lines of article: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore quos ipsam nobis obcaecati, culpa ex? Pariatur repudiandae quisquam et, cum animi nisi veritatis ratione, debitis consectetur repellat esse dolorem numquam!</p>
+                <a class="read_more_button" href="#">Read More</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <container class="body">
+                <div class="body_text">
+                    <h3>Why we do what we do</h2>
+                    <h2>Features</h2>
+                </div>
+            <box class="box">
+                <a href="https://placeholder.com">
+                    <img src="https://via.placeholder.com/150" alt="placeholder">
+                </a>
+                <p><a href="#">sive Design</a></p>
+            </box>
+            <box class="box">
+                <a href="https://placeholder.com">
+                    <img src="https://via.placeholder.com/150" alt="placeholder">
+                </a>
+                <p><a href="#">More about Us</a></p>
+            </box>
+            <box class="box">
+                <a href="https://placeholder.com">
+                    <img src="https://via.placeholder.com/150" alt="placeholder">
+                </a>
+                <p><a href="#">Healthy Living</a></p>
+            </box>
+            <box class="box">
+                <a href="https://placeholder.com">
+                    <img src="https://via.placeholder.com/150" alt="placeholder">
+                </a>
+                <p><a href="#">Member forms</a></p>
+            </box>     
+        </container>
+    </div>
+
+    <footer class="footer">
+        <p>All rights resvered for EMC2Care.</p> 
+    </footer>
 </body>
 </html>
