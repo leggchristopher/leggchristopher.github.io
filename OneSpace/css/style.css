@@ -691,6 +691,38 @@ h1, h2, h3 {
     -moz-text-fill-color: transparent;
 }
 
+#row1 {
+    background-color: #33325c;
+}
+
+#row2 {
+    background-color: #343563;
+}
+
+#row3 {
+    background-color: #38386c;
+}
+
+#row4 {
+    background-color: #3b3b71;
+}
+
+#row5 {
+    background-color: #3d3f78;
+}
+
+#row6 {
+    background-color: #404181;
+}
+
+#row7 {
+    background-color: #33325c;
+}
+
+#row8 {
+    background-color: #33325c;
+}
+
 @media only screen and (max-width: 767px) {
 
     #pricebox2 {
