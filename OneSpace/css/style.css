@@ -2,14 +2,20 @@
 
 * {
     font-family: Camphor,Open Sans,Segoe UI,sans-serif;
+   
 }
 
+nav {
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
 body {
     background: linear-gradient(135deg, black, rgb(248, 248, 248), #fffffff6);
     padding: 0;
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
 }
 
 p {
@@ -611,7 +617,7 @@ h1, h2, h3 {
 
 .payments {
     font-size: 26px;
-    line-height: 26px;
+    line-height: auto;
     color: #ededed;
     text-shadow: 1px 1px 5px #000000;
 }
@@ -638,10 +644,13 @@ h1, h2, h3 {
     border-right: 3px solid #5c59a91c;
     border-radius: 1px;
     height: 100%;
+    
 }
 
 .right-side-equation {
     padding: 0 15px;
+    width: 150px;
+    overflow-x: hidden;
 }
 
 .right-side-equation span {
@@ -688,6 +697,11 @@ h1, h2, h3 {
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent; 
     -moz-text-fill-color: transparent;
+}
+
+.purple-bar-logo{
+    max-width: 150px !important;
+    padding-right: 30px !important;
 }
 
 #row1 {
@@ -799,14 +813,25 @@ h1, h2, h3 {
 }
 
 @media (max-width: 991px) {
-    .col-sm-0, .col-md-0, .col-lg-0 {display: none;}
+    .col-lg-0 {
+        display: none;
+    }
     .button-holder {
         text-align: center !important;
     }
 }
 
 @media (max-width: 767px) {
+    .col-md-0 {
+        display: none;
+    }
     .contact-and-create h4, .contact-and-create h3 {
         text-align: center;
+    }
+}
+
+@media (max-width: 479px) {
+    .col-sm-0 {
+        display: none;
     }
 }
